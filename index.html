@@ -3,38 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.freepik.com/256/3291/3291667.png?ga=GA1.1.896875667.1707241734"
+    />
+    <title>GitHub CLI | Take GitHub to the command line</title>
   </head>
   <body>
-    <!-- header -->
-    <header>
-      <nav class="nav-container">
-        <div class="navbar-github-logo">
-          <i class="fa-brands fa-github"></i>
-          <h4>CLI</h4>
-        </div>
-        <div class="nav-right">
-          <h4><a href="">Manual</a></h4>
-          <h4><a href="">Release notes</a></h4>
-        </div>
-      </nav>
-    </header>
-    <!-- section-1 -->
-    <main>
-      <div class="main-container">
-        <h1>Take GitHub to the command line</h1>
-        <p>GitHub CLI brings GitHub to your terminal. Free and open source.</p>
-        <div class="btn">
-          <button class="download-button">Download for Windows</button>
-        </div>
-        <br />
+    <!-- nav-bar -->
+    <nav class="navbar">
+      <div class="nav-logo">
         <a href="#">
-          View installation instructions
-          <i class="fa-solid fa-arrow-right"></i>
+          <i class="fa-brands fa-github nav-icon"></i>
+          <span> CLI</span>
         </a>
       </div>
-    </main>
+      <div class="nav-area">
+        <ul>
+          <li><a href="#">Manual</a></li>
+          <li><a href="#">Release Notes</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- section-first -->
+    <div class="section1-main-container">
+      <div class="section1-in-container">
+        <div class="section1-area">
+          <h1>Take GitHub to the command line</h1>
+          <p>
+            GitHub CLI brings GitHub to your terminal. Free and open source.
+          </p>
+          <button class="download-button">Download For Windows</button>
+          <br />
+          <a href="#"
+            >View Installation Instructions
+            <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-second -->
+    <div class="section2-main-container">
+      <div class="section2-in-container">
+        <div class="section-second-image">
+          <h3 class="text-center">
+            <span class="blue">$ </span>&nbsp;
+            <span class="white"> gh issue list</span>
+          </h3>
+          <p>View and filter a repository’s open issues.</p>
+          <div class="section2-area">
+            <div class="position"></div>
+            &nbsp;&nbsp;&nbsp;
+            <div class="position"></div>
+            &nbsp;&nbsp;&nbsp;
+            <div class="position"></div>
+            &nbsp;&nbsp;&nbsp;<br /><br />
+            <div class="coding-content">
+              <p class="start-code">Showing 4 of 4 issues in cli/cli</p>
+              <br /><br />
+              <p class="code">
+                <span class="green">#16 </span>Improving interactions with
+                protected branches
+              </p>
+              <p class="code">
+                <span class="green">#14 </span>PR commands on a detached head
+              </p>
+              <p class="code">
+                <span class="green">#13 </span>Support for Github Enterprise
+                (enhancement)
+              </p>
+              <p class="code">
+                <span class="green">#11 </span>Add an easier upgrade command
+                (bug)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="last-heading">
+        <p>View all GitHub CLI commands <i class="fa-solid fa-arrow-right"></i></p>
+      </div>
+    </div>
+
     <script
       src="https://kit.fontawesome.com/3411596bba.js"
       crossorigin="anonymous"
