@@ -141,10 +141,10 @@
     width: 400px;
   }
   .footer-endbox1 > ul {
-    /* padding-left: 15px; */
+    padding-left: 15px;
   }
   .footer-endbox2 > ul {
-    /* padding-right: 15px; */
+    padding-right: 15px;
   }
   .footer-endbox2 > ul > li {
     font-size: 1.2rem;
@@ -153,11 +153,11 @@
     flex-wrap: wrap;
   }
 }
-/* @media screen and (max-width:530px){
-    .section1-content > h1{
-        font-size: 1.5rem;
-    }
-    .section1-content > p{
-        font-size: 0.8rem;
-    }
- }  */
+@media screen and (max-width: 530px) {
+  .section1-content > h1 {
+    font-size: 1.5rem;
+  }
+  .section1-content > p {
+    font-size: 0.8rem;
+  }
+}
