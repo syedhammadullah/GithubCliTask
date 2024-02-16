@@ -1,0 +1,163 @@
+@media screen and (max-width: 1024px) {
+  .section1-area {
+    width: 600px;
+  }
+  .section2-area {
+    width: 800px;
+  }
+  .section3-inbox {
+    width: 225px;
+  }
+  .section3-boxes {
+    gap: 10px;
+  }
+  .section3-main-container > h1 {
+    font-size: 3rem;
+    padding-left: 2rem;
+  }
+  .section3-inbox > h2 {
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  .section3-inbox > p {
+    font-size: 14px;
+  }
+  .section4-area {
+    width: 70%;
+  }
+  .footer-in-container {
+    gap: 10px;
+  }
+  .footer-box {
+    width: 300px;
+  }
+  .foot-box {
+    width: 180px;
+  }
+  .section3-in-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .section2-area {
+    width: 700px;
+  }
+  .section3-inbox {
+    width: 225px;
+  }
+  .section3-boxes {
+    gap: 5px;
+  }
+  .section3-main-container > h1 {
+    font-size: 2.5rem;
+    padding-left: 0.5rem;
+  }
+  .section3-inbox > h2 {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  .section3-inbox > p {
+    font-size: 14px;
+  }
+  .section4-area {
+    width: 80%;
+  }
+  .footer-in-container {
+    flex-wrap: wrap;
+  }
+  .footer-box {
+    width: 95%;
+  }
+  .foot-box {
+    width: 150px;
+    margin-top: 10px;
+  }
+  .section3-in-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section1-area > h1 {
+    font-size: 3rem;
+  }
+  .section1-area > p {
+    font-size: 1.2rem;
+  }
+  .section2-area {
+    width: 600px;
+  }
+  .section2-end > a {
+    font-size: 18px;
+  }
+  .section3-boxes {
+    flex-wrap: wrap;
+  }
+  .section3-inbox {
+    width: 95vw;
+  }
+  .section3-main-container > h1 {
+    font-size: 1.9rem;
+  }
+  .section4-area {
+    width: 90%;
+  }
+  .section4-area > h2 {
+    font-size: 1.5rem;
+  }
+  .footer-box {
+    width: 90%;
+  }
+  .foot-box {
+    width: 130px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .section3-in-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section2-area {
+    width: 85%;
+  }
+  .foot-box {
+    width: 200px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .section3-in-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 570px) {
+  .section1-area > h1 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+  }
+  .section1-area > p {
+    font-size: 0.9rem;
+  }
+  .section2-area {
+    width: 400px;
+  }
+  .footer-endbox1 > ul {
+    /* padding-left: 15px; */
+  }
+  .footer-endbox2 > ul {
+    /* padding-right: 15px; */
+  }
+  .footer-endbox2 > ul > li {
+    font-size: 1.2rem;
+  }
+  .section3-in-container {
+    flex-wrap: wrap;
+  }
+}
+/* @media screen and (max-width:530px){
+    .section1-content > h1{
+        font-size: 1.5rem;
+    }
+    .section1-content > p{
+        font-size: 0.8rem;
+    }
+ }  */
